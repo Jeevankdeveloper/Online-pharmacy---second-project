@@ -1,0 +1,938 @@
+body {
+    margin: 0;
+    background-color: #dcdfce;
+    color: #02475b;
+}
+
+#bodyInside {
+    width: 74%;
+    height: auto;
+    /* border: 2px solid yellow; */
+    margin-left: 13%;
+    background-color: #f7f8f5;
+}
+
+
+header {
+    width: 74%;
+    height: 90px;
+    /* border: 2px solid black; */
+    box-shadow: 0px 3px 4px rgb(199, 199, 199);
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 13%;
+    z-index: 999;
+}
+
+#headerImg {
+    /* border: 2px solid black; */
+    width: 7%;
+    height: 63px;
+    margin-left: 2.5%;
+    margin-top: 12px;
+    float: left;
+
+}
+
+#headerImg>img {
+    width: 100%;
+    height: 63px
+}
+
+#headerContent {
+    height: 100%;
+    width: 51%;
+    /* border: 2px solid green; */
+    float: right;
+}
+
+.HcontentDetails {
+    width: 18%;
+    height: 100%;
+    /* border: 2px solid rgb(215, 142, 198); */
+    float: left;
+    margin-right: 1%;
+    font-size: 87%;
+}
+
+.HcontentDetails>a>p {
+    /* border: 2px solid rgb(15, 15, 15); */
+    /* width: 90%; */
+    margin-top: 14px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #02475b;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.HcontentDetails>a>span {
+    display: inline-block;
+    margin-top: 9px;
+    /* padding-left: 6px; */
+}
+
+#consult {
+    width: 63%
+}
+
+#cart {
+    float: left;
+    height: 30px;
+    width: 30;
+    margin-top: 28px;
+    /* border: 2px solid rgb(15, 15, 15); */
+}
+
+#cart>a>img {
+    height: 30px;
+    width: 100%;
+}
+
+#profile {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-top: 17px;
+    margin-left: 6%;
+    /* border: 2px solid rgb(15, 15, 15); */
+}
+
+#profile>a>img {
+    height: 50px;
+    width: 100%;
+}
+
+#coverPic {
+    width: 100%;
+    height: 440px;
+    background-image: url(https://i.ibb.co/1GrW5CM/Doctor-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 93px;
+}
+
+#coverInfo {
+    width: 38%;
+    height: 400px;
+    /* border: 1px solid red; */
+    top: 30px;
+    left: 60px;
+    position: relative;
+}
+
+#coverInfo>h2 {
+    font-size: 56px;
+    margin: 0px;
+}
+
+#coverInfo>p {
+    font-size: 24px;
+}
+
+.bars {
+    width: 100%;
+    height: 63px;
+    background-color: #02475b;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.bars>a>img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 12px;
+}
+
+.bars>a>h3 {
+    float: left;
+    color: #fff;
+    margin-left: 3%;
+}
+
+.arrow {
+    margin-left: 23%;
+}
+
+.smallBars {
+    width: 48%;
+    height: 65px;
+    background-color: #fff;
+    float: left;
+    border-radius: 9px;
+    margin-top: 3px;
+}
+
+.margin {
+    margin-left: 4%;
+}
+
+.smallBars>img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 12px;
+}
+
+.margin>h3 {
+    margin-left: 32%;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 310px;
+    /* border: 2px solid blueviolet; */
+    top: 93px;
+
+}
+
+.carouselInside {
+    width: 89%;
+    height: 240px;
+    /* border: 2px solid yellow; */
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.button__carousel {
+    /* float: left; */
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 117px;
+    margin-left: 89%;
+}
+
+.left {
+    margin-left: -4%;
+}
+
+.button__carousel>a>img {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.carousel__image {
+    height: 241px;
+    width: 89%;
+    border-radius: 14px;
+    position: absolute;
+}
+
+#slide__div {
+    width: 50%;
+    height: 12px;
+    /* border: 1px solid green; */
+    margin-top: 7px;
+    margin-left: 41%;
+}
+
+.slide__dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    float: left;
+    background-color: rgb(180, 175, 175);
+    margin-left: 1%;
+    border: none;
+
+}
+
+#askApollo {
+    width: 89%;
+    height: 158px;
+    /* border: 2px solid black; */
+    margin-top: 78px;
+    margin-left: 5%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border-radius: 8px;
+}
+
+#ask {
+    width: 35%;
+    height: 124px;
+    /* border: 2px solid red; */
+    margin-top: 22px;
+    margin-left: 4%;
+    float: left;
+}
+
+#ask>h2 {
+    font-size: 27px;
+    line-height: 24px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+#ask>p {
+    font-size: 22px;
+    line-height: 24px;
+    color: #666;
+    margin: 0 0 10px;
+}
+
+.askContainer {
+    float: left;
+    margin: 18px 4px 0px 32px;
+    padding: 0;
+    width: 36%;
+    /* border: 1px solid green; */
+}
+
+.disease {
+    height: 80px;
+    width: 80px;
+    /* border: 1px solid burlywood; */
+    float: left;
+    margin-left: 2%;
+    margin-top: 31px;
+    background: #f4f9ff;
+    list-style-type: none;
+}
+
+.disease>img {
+    height: 63px;
+    width: 64px;
+    margin-top: -40px;
+    margin-left: 6%;
+}
+
+.disease>p {
+    font-size: 14px;
+    color: #4c6889;
+    line-height: 14px;
+    margin-left: 21%;
+}
+
+.symptoms {
+    float: left;
+    color: #1fa098;
+    line-height: 20px;
+    font-size: 18px;
+    width: 11%;
+    text-transform: uppercase;
+    /* border: 1px solid burlywood; */
+    margin-top: 53px;
+    margin-left: 3%;
+    font-weight: 600;
+}
+
+#arrowSym {
+    float: left;
+    width: 5%;
+    /* border: 1px solid burlywood; */
+    margin-top: 61px;
+    margin-left: 1%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* #covid {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #1fa098;
+} */
+
+#vaccination {
+    width: 89%;
+    height: 123px;
+    margin-top: 35px;
+    margin-left: 5%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+
+}
+
+#vaccineQueries {
+    color: #00b38e;
+    font-size: 16px;
+    margin: 0;
+    padding: 19px 0px 0px 23px;
+
+}
+
+.vaccineQdetails {
+    width: 22%;
+    height: 46px;
+    float: left;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    margin: 14px 4px 0px 22px;
+    border-radius: 10px;
+}
+
+.vaccineQdetails>img {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 8px 7px 0px 9px;
+}
+
+.vaccineQtext {
+    color: #fc9916;
+    font-size: 16px;
+    line-height: 16px;
+    float: left;
+    margin: 15px 0px 0px 6px;
+}
+
+.pic {
+    width: 89%;
+    height: 280px;
+    margin-left: 5%;
+    margin-top: 34px;
+}
+
+.healthArticle {
+    width: 89%;
+    height: 365px;
+    /* border: 1px solid #02475b; */
+    margin-top: 29px;
+    margin-left: 5%;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.banner {
+    width: 100%;
+    height: 113px;
+    background-image: url(https://i.ibb.co/9nPfdcz/ecosystem-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner>h3 {
+    color: #fff;
+    margin: 0;
+    padding: 30px 0px 0px 19px;
+    width: 92%;
+    float: left;
+    font-size: 36px;
+}
+
+.banner>img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 19px;
+    margin-right: 2%;
+}
+
+.banner>p {
+    color: #fff;
+    margin-left: 21px;
+    margin-top: 0px;
+}
+
+#healthBlog {
+    /* border: 1px solid red; */
+    width: 96%;
+    height: 98px;
+    margin-left: 2%;
+    margin-top: 37px;
+    border-bottom: 1px dashed rgba(0, 0, 0, .2);
+}
+
+#healthBlog>h3 {
+    font-size: 16px;
+    color: #00b38e;
+}
+
+#healthBlog>p {
+    color: rgba(2, 71, 91, .6);
+    font-size: 17px;
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+#latestArticles {
+    width: 27%;
+    height: 50px;
+    /* border: 1px solid blue; */
+    float: left;
+    margin-left: 23%;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+#latestArticles>img {
+    width: 30px;
+    height: 28px;
+    margin: 10px 11px 0px 12px;
+}
+
+#latestArticles>span {
+    color: orange;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+#youCan {
+    width: 96%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-left: 2%;
+}
+
+#youCanAlso {
+    font-size: 13px;
+    font-weight: 600;
+    color: #02475b;
+    margin: 0;
+    padding-bottom: 12px;
+    margin-top: 17px;
+}
+
+#parts {
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+
+.tools {
+    width: 31%;
+    height: 50px;
+    border: 1px solid #02475b;
+    border-radius: 11px;
+    margin-right: 2%;
+    float: left;
+}
+
+.tools>img {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-top: 11px;
+    margin-left: 4%;
+}
+
+.tools>p {
+    color: #02475b;
+    float: left;
+    margin-left: 4%;
+    font-weight: 600;
+}
+
+#apolloDetails {
+    width: 100%;
+    height: 2685px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+#apolloDetailsInside {
+    width: 96%;
+    height: 2651px;
+    margin-left: 2%;
+    /* border: 1px solid red; */
+    margin-top: 33px;
+}
+
+#apolloDetailsInside>h1 {
+    font-size: 19px;
+    padding-top: 40px;
+}
+
+#apolloDetailsInside>p {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+#apolloDetailsInside>p>em {
+    font-weight: bold;
+}
+
+#apolloDetailsInside>h2 {
+    font-size: 18px;
+}
+
+li {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+footer {
+    width: 100%;
+    height: 940px;
+    background-color: black;
+}
+
+footer>img {
+    width: 100px;
+    height: 75px;
+    margin-left: 44%;
+    margin-top: 30px;
+}
+
+#services {
+    width: 96%;
+    height: 825px;
+    margin-left: 2%;
+    margin-top: 8px;
+    /* border: 1px solid #fff; */
+}
+
+.listDiv>h2 {
+    color: #fcb716;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.listDiv {
+    width: 100%;
+    height: 135px;
+    margin: 0;
+    /* border: 1px solid pink; */
+}
+
+.list>li {
+    color: #fff;
+    float: left;
+    margin: 0px 5% 0px -2%;
+    padding: 0;
+    line-height: 27px;
+}
+
+#mascot {
+    width: 80px;
+    height: 80px;
+    right: 1;
+    bottom: 1;
+    position: fixed;
+    margin-left: auto;
+
+}
+
+#mascot>a>img {
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (min-width: 1351px) and (max-width: 1515px) {
+    #bodyInside {
+        width: 83%;
+        margin-left: 8%;
+    }
+
+    header {
+        width: 83%;
+        left: 8%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
+    #bodyInside {
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    header {
+        width: 94%;
+        left: 3%;
+    }
+
+    #coverInfo {
+        width: 35%;
+    }
+
+    .bars>a>h3 {
+        font-size: 17px;
+    }
+
+    .smallBars>h3 {
+        font-size: 17px;
+    }
+
+    #mascot {
+        width: 70px;
+        height: 70px;
+    }
+
+    #mascot>a>img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #bodyInside {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    header {
+        width: 100%;
+        left: 0%;
+    }
+
+    #coverInfo>h2 {
+        font-size: 52px;
+    }
+
+    .bars>a>img {
+        width: 36px;
+        height: 36px;
+        margin-left: 2%;
+    }
+
+    .bars>a>h3 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .smallBars>img {
+        width: 39px;
+        height: 39px;
+    }
+
+    .smallBars>h3 {
+        font-size: 17px;
+    }
+
+    #slide__div {
+        margin-left: 45%;
+    }
+
+    #ask {
+        width: 34%;
+    }
+
+    #ask>p {
+        font-size: 21px;
+    }
+
+    .askContainer {
+        float: left;
+        margin: 18px 4px 0px 1px;
+        padding: 0;
+        width: 41%;
+    }
+
+    .disease {
+        height: 78px;
+        width: 78px;
+    }
+
+    .banner>h3 {
+        width: 91%;
+        font-size: 33px;
+    }
+
+    #latestArticles>span {
+        font-size: 16px;
+        position: absolute;
+        margin-top: 18px;
+    }
+
+    .vaccineQdetails {
+        width: 21.5%;
+    }
+
+    .vaccineQtext {
+        margin-left: 2px;
+    }
+
+    .tools {
+        width: 29%;
+    }
+
+    .kavach {
+        width: 36%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    #apolloDetails {
+        width: 100%;
+        height: 2765px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #bodyInside {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    header {
+        width: 100%;
+        left: 0%;
+    }
+
+    #headerImg {
+        width: 9%;
+    }
+
+    #headerContent {
+        width: 67%;
+    }
+
+    #coverInfo {
+        width: 46%;
+        left: 34px;
+    }
+
+    #coverInfo>h2 {
+        font-size: 47px;
+    }
+
+    #coverInfo>p {
+        font-size: 22px;
+    }
+
+    .bars>a>img {
+        width: 38px;
+        height: 38px;
+        margin-left: 2%;
+    }
+
+    .bars>a>h3 {
+        font-size: 15px;
+        margin-left: 2%;
+        margin-top: 25px;
+    }
+
+    #whiteArrow {
+        margin-left: 0;
+    }
+
+    .smallBars>h3 {
+        font-size: 17px;
+    }
+
+    #ask {
+        width: 31%;
+        margin-left: 3%;
+    }
+
+    #ask>h2 {
+        font-size: 26px;
+    }
+
+    #ask>p {
+        font-size: 15px;
+    }
+
+    .askContainer {
+        width: 46%;
+        float: left;
+        margin: 18px 4px 0px 3px;
+    }
+
+    .disease {
+        height: 65px;
+        width: 65px;
+    }
+
+    .disease>p {
+        margin-left: 17%;
+    }
+
+
+    .symptoms {
+        color: #fff;
+        background-color: #1fa098;
+        margin-left: 0%;
+        font-size: 12px;
+        width: 12%;
+        font-weight: 500;
+    }
+
+    #arrowSym {
+        margin-left: 1%;
+    }
+
+    .vaccineQdetails {
+        width: 25%;
+        margin: 14px 0px 0px 0px;
+    }
+
+    .vaccineQtext {
+        font-size: 16px;
+        width: 61px;
+        height: 37px;
+        margin: 8px 0px 0px 6px;
+    }
+
+    .banner>h3 {
+        width: 88%;
+        font-size: 30px;
+    }
+
+    #healthBlog {
+        height: 104px;
+    }
+
+    #healthBlog>p {
+        width: 61%;
+    }
+
+    #latestArticles {
+        width: 30%;
+        height: 55px;
+        margin-left: 9%;
+    }
+
+    #latestArticles>img {
+        float: left;
+        margin: 14px 11px 16px 12px;
+    }
+
+    #latestArticles>span {
+        float: left;
+        font-size: 15px;
+        font-weight: 600;
+        height: 39px;
+        width: 65%;
+        margin-top: 13px;
+    }
+
+    .tools {
+        width: 29%;
+    }
+
+    .kavach {
+        width: 36%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .kavach>p {
+        width: 70%;
+        margin: 8px 0px 0px 14px;
+    }
+
+    #apolloDetails {
+        height: 3148px;
+    }
+
+    footer {
+        width: 100%;
+        height: 1065px;
+    }
+
+    .listDiv {
+        height: 159px;
+    }
+}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (max-width: 600px) {}
