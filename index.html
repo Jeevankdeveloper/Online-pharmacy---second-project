@@ -4,10 +4,11 @@
     <title>Apollo home page</title>
     <link href="index.css" rel="stylesheet">
     <link href="https://i.ibb.co/vq7BB3x/Apollo-icon.png" type="image" rel="icon">
+    <script src="index.js"></script>
 </head>
 
 <body>
-
+    <button onclick="changeMode()" id="mode">Change Mode</button>
     <div id="bodyInside">
         <header>
             <div id="headerImg"><img src="https://i.ibb.co/vq7BB3x/Apollo-icon.png" alt="apollo24/7"></div>
@@ -446,6 +447,12 @@
             </div>
         </a>
     </div>
+    <div id="coupon">
+        <button onclick="closeCoupon()" title="close">&times;</button>
+    </div>
+    <script>
+        window.onload = loadCoupon();
+    </script>
 </body>
 
 </html>
